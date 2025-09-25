@@ -3,7 +3,7 @@ import sys
 from rich.console import Console
 from rich.table import Table
 
-from benchmarks.benchmark import run_benchmarks, save_results_csv, save_results_json
+from benchmarks.benchmarks import run_benchmarks, save_results_csv, save_results_json
 from utils.data_gen import size_from_memory_fraction, size_from_proc_process_count
 
 console = Console()
